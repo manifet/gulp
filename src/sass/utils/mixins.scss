@@ -12,20 +12,4 @@
   @return $pixels / $context * 1rem;
 }
 
-// placeholder helper
-@mixin placeholder {
-  ::-webkit-input-placeholder {
-    @content;
-  }
-  :-moz-placeholder {
-    @content;
-  }
-  ::-moz-placeholder {
-    @content;
-  }
-  :-ms-input-placeholder {
-    @content;
-  }
-}
-
 

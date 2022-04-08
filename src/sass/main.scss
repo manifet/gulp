@@ -2,7 +2,6 @@
 @import 'utils/vars';
 @import 'utils/mixins';
 @import 'utils/fonts';
-@import 'utils/reset';
 
 html {
   line-height: $mainLineHeight;
@@ -86,6 +85,3 @@ li {
     max-width: $smPhoneWidth;
   }
 }
-
-// Modules:
-// example: @import "modules/my-module.scss";
