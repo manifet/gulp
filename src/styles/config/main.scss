@@ -1,12 +1,5 @@
-/* Utils:
-  ========================================================================== */
-@import './utils/libs';
-@import './utils/vars';
-@import './utils/mixins';
-@import './utils/fonts';
+@use "vars" as *;
 
-/* Main styles:
-  ========================================================================== */
 html {
   font-size: $mainFontSize;
 }
